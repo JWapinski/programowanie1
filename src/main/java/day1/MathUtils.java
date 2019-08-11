@@ -2,7 +2,7 @@ package day1;
 
 import java.util.Scanner;
 
-public class Zadania {
+public class MathUtils {
 
     public static void main(String[] args) {
         calcSum();
@@ -10,7 +10,7 @@ public class Zadania {
 
     // slajd 13
     // Wczytujący dwie liczby i wypisujący ich sumę
-    private static void calcSum() {
+    public static void calcSum() {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Podaj liczbe 1:");
@@ -23,7 +23,7 @@ public class Zadania {
     }
 
     // Liczący wartość bezwzględną podanej liczby
-     static int calcAbs(int liczba) {
+     public static int calcAbs(int liczba) {
         if (liczba >= 0) {
             return liczba;
         } else {
@@ -32,7 +32,7 @@ public class Zadania {
     }
 
     // Liczący silnię podanej liczby
-     static long calcFactorial(int liczba) {
+     public static long calcFactorial(int liczba) {
         if (liczba < 0) {
             throw new WrongNumberException("Silnia moze byc liczona tylko dla wartosci wiekszych lub rownych 0");
         }
@@ -45,7 +45,7 @@ public class Zadania {
     }
 
     // Sprawdzający, czy podana liczba jest pierwsza
-    static boolean isPrimary(int liczba) {
+    public static boolean isPrimary(int liczba) {
         if (liczba < 2) {
             throw new WrongNumberException("Liczba pierwsza nie moze byc liczba mniejsza od 2");
         }

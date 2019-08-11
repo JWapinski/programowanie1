@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="91e0c8ee-e075-4469-b192-719ef374f4c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/day1/Zadania.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day1/Zadania.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day1/Zadania.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day1/MathUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day1/ZadaniaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day1/WrongNumberException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day1/WrongNumberException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/day1/Zadania.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/day1/ZadaniaTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,10 +33,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/day1/Zadania.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/day1/MathUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-128">
-              <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            <state relative-caret-position="-608">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
               <folding>
                 <element signature="e#109#110#0" expanded="true" />
                 <element signature="e#134#135#0" expanded="true" />
@@ -44,14 +48,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/day1/ZadaniaTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/day1/MathUtilsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="12" column="59" lean-forward="true" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+            <state relative-caret-position="-102">
+              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/day1/Streams.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,8 +76,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -74,8 +88,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/day1/Zadania.java" />
         <option value="$PROJECT_DIR$/src/test/java/day1/ZadaniaTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day1/Zadania.java" />
+        <option value="$PROJECT_DIR$/src/test/java/day1/MathUtilsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day1/Streams.java" />
       </list>
     </option>
   </component>
@@ -118,6 +134,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="programowanie1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programowanie1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="programowanie1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programowanie1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="day1" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -152,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ZadaniaTest">
+  <component name="RunManager" selected="JUnit.MathUtilsTest">
     <configuration name="Zadania" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day1.Zadania" />
       <module name="programowanie1" />
@@ -166,7 +197,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZadaniaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MathUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="programowanie1" />
       <extension name="coverage">
         <pattern>
@@ -175,7 +206,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="day1" />
-      <option name="MAIN_CLASS_NAME" value="day1.ZadaniaTest" />
+      <option name="MAIN_CLASS_NAME" value="day1.MathUtilsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,7 +214,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ZadaniaTest" />
+        <item itemvalue="JUnit.MathUtilsTest" />
         <item itemvalue="Application.Zadania" />
       </list>
     </recent_temporary>
@@ -201,37 +232,69 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="MathUtilsTest - 2019.08.11 at 12h 30m 27s.xml">
+      <configuration name="MathUtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathUtilsTest - 2019.08.11 at 12h 30m 49s.xml">
+      <configuration name="MathUtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathUtilsTest - 2019.08.11 at 12h 30m 58s.xml">
+      <configuration name="MathUtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathUtilsTest - 2019.08.11 at 12h 38m 41s.xml">
+      <configuration name="MathUtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathUtilsTest - 2019.08.11 at 12h 38m 56s.xml">
+      <configuration name="MathUtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathUtilsTest - 2019.08.11 at 12h 39m 21s.xml">
+      <configuration name="MathUtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathUtilsTest - 2019.08.11 at 12h 39m 31s.xml">
+      <configuration name="MathUtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathUtilsTest - 2019.08.11 at 12h 39m 52s.xml">
+      <configuration name="MathUtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathUtilsTest - 2019.08.11 at 12h 40m 24s.xml">
+      <configuration name="MathUtilsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathUtilsTest - 2019.08.11 at 12h 43m 14s.xml">
+      <configuration name="MathUtilsTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3285968" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Learn" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24939272" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.3285968" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -242,10 +305,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/day1/Zadania.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/day1/Streams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-128">
-          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/day1/MathUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-608">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
           <folding>
             <element signature="e#109#110#0" expanded="true" />
             <element signature="e#134#135#0" expanded="true" />
@@ -255,14 +328,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/day1/ZadaniaTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/day1/MathUtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="12" column="59" lean-forward="true" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+        <state relative-caret-position="-102">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
           </folding>
         </state>
       </provider>
